@@ -1,4 +1,4 @@
-// Woman   &#128105;     Man  &#128104;
+// Woman   &#128105;     Man  &#128104;  locatie  📍
 
 function displayPerson(m) {
   const display = document.createElement("div");
@@ -19,9 +19,8 @@ function displayPerson(m) {
   <h3>${m.adres}</h3><br>
   <h3>${m.info}</h3>
   `;
-
-  console.log(display);
 }
+
 function de() {
   const display = document.getElementById("pdisplay").remove();
 }

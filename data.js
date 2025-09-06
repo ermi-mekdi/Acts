@@ -45,6 +45,30 @@ const person = {
     info: "",
     man: true,
   },
+  peter: {
+    name1: "ጴጥሮስ",
+    nameE1: "Peter",
+    nameM1: "ከውሒ",
+    name2: "ስምኦን",
+    nameE2: "Simon ",
+    nameM2: "ንሱ ይሰምዕ እዩ",
+    title: "ሃዋርያ, ገፋፊ ዓሳ",
+    adres: "",
+    info: "ሓዉ ንእንድርያስ： በዓል ሓዳር ",
+    man: true,
+  },
+  john: {
+    name1: "ዮሐንስ",
+    nameE1: "John",
+    nameM1: "",
+    name2: "",
+    nameE2: " ",
+    nameM2: "",
+    title: "ሃዋርያ",
+    adres: "",
+    info: "ሓዉ ንያዕቆብ",
+    man: true,
+  },
 };
 const plc = {
   jerusalem: {
@@ -56,6 +80,17 @@ const plc = {
     nameM2: "",
     vers: "",
     gMap: "https://maps.app.goo.gl/SwKKPFPFNv7D5ty97",
+    info: "",
+  },
+  olivet: {
+    name1: "ደብረ ዘይቲ",
+    nameE1: "Olivet",
+    nameM1: "",
+    name2: "",
+    nameE2: "",
+    nameM2: "",
+    vers: "",
+    gMap: "https://maps.app.goo.gl/RvFHnh1ZquQzfhoC8 ",
     info: "",
   },
 };
