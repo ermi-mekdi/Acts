@@ -167,4 +167,16 @@ const person = {
     info: "Zijn bijnaam “de Zeloot” wijst op zijn vurige toewijding — of politiek, of religieus",
     man: true,
   },
+  judasJames: {
+    name1: "ይሁዳ ወዲ ያእቆብ",
+    nameE1: "Judas James",
+    nameM1: "ምስጋና ",
+    name2: "",
+    nameE2: "",
+    nameM2: "",
+    title: "ሃዋርያ",
+    adres: "",
+    info: "",
+    man: true,
+  },
 };

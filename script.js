@@ -12,7 +12,8 @@ function displayPerson(m) {
   display.innerHTML = `
   <div onclick="de()" class="x">X</div>
   ${sex} 
-  <h2> ስም ${m.name1} (${m.nameE1})  ${m.name2}  ${m.nameE2} </h2><br>
+  <h2> ስም ${m.name1} (${m.nameE1}) </h2><br>
+  <h2> ካልኣይ ስም  ${m.name2}  (${m.nameE2}) </h2><br>
   <h3>${def1}</h3><br>
   <h3>${def2} </h3><br>
   <h3>${m.title}</h3><br>
@@ -29,9 +30,7 @@ function disPlc(p) {
   const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
   const def2 = p.nameM2 ? p.name2 + " ማለት " + p.nameM2 : "";
   const vers = p.vers ? p.vers : "";
-  const gMap = p.gMap
-    ? `<a href="${p.gMap}" target="_blank">Google Map</a>`
-    : "";
+  const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
   const info = p.info ? p.info : "";
 
   display.innerHTML = `
