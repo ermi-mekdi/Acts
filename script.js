@@ -51,3 +51,13 @@ function disPlc(p) {
 function de() {
   const display = document.getElementById("pdisplay").remove();
 }
+function wordD(w) {
+  const display = document.createElement("div");
+  display.classList.add("word");
+  display.innerHTML = `
+    <h2>${word.w}</h2>
+    
+  `;
+  document.body.appendChild(display);
+  console.log(display);
+}

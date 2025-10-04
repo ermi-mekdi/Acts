@@ -111,7 +111,7 @@ const plc = {
     info: "The name Elamite refers to the people of the ancient civilization of Elam, which was located in the southwest of modern-day Iran.",
   },
   mesopotamia: {
-    name1: " ኣብ መንጎ ኽልተ ርባ",
+    name1: " ሜሶጶታሚያ",
     nameE1: "Mesopotamia",
     nameM1: "ኣብ መንጎ ኽልተ ርባ ",
     name2: "",
