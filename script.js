@@ -51,13 +51,17 @@ function disPlc(p) {
 function de() {
   const display = document.getElementById("pdisplay").remove();
 }
-function wordD(w) {
+function wordD(w, event) {
   const display = document.createElement("div");
   display.classList.add("word");
-  display.innerHTML = `
-    <h2>${word.w}</h2>
-    
-  `;
+  display.id = "pdisplay";
   document.body.appendChild(display);
-  console.log(display);
+  display.innerHTML = `  
+    <h2>${w.d}</h2>    
+  `;
+  // Position at click
+  display.style.position = "absolute";
+  display.style.left = event.clientX + window.scrollX + "px";
+  display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
+  setTimeout(de, 2000);
 }

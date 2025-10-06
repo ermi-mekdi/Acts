@@ -33,14 +33,15 @@ a {
   height: auto;
   background-color: rgba(156, 151, 151, 0.904);
   z-index: 2;
-  position: fixed;
+  position: absolute;
   top: 20%;
   left: 12%;
   right: 10%;
-  bottom: 5%;
+
   border: none;
   border-radius: 10px;
   padding-bottom: 5px;
+  font-size: larger;
 }
 strong {
   cursor: pointer;
@@ -63,5 +64,29 @@ strong {
   font-weight: bolder;
   float: center;
   cursor: pointer;
-  margin-bottom: 15%;
+  margin-bottom: 25%;
+  z-index: 2;
+}
+.word {
+  font-size: larger;
+  /* Optional: add background, border, etc. */
+  background: #a9db95d0;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 2;
+  position: absolute;
+  width: auto;
+  cursor: pointer;
+}
+u {
+  cursor: pointer;
+  font-weight: bold;
+}
+.hy {
+  background-color: rgba(255, 255, 0, 0.5);
+  font-weight: bolder;
+}
+.hyr {
+  background-color: rgba(240, 61, 61, 0.404);
+  font-weight: bolder;
 }
