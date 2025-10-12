@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/faviacts.jpg" />
     <script src="../data/ppls.js"></script>
     <script src="../data/plc.js"></script>
+    <script src="../data/word.js"></script>
   </head>
   <body>
     <div>
@@ -16,7 +17,9 @@
       </div>
     <p>
       <h2 class="sub-chapter" >ብስም የሱስ ዝሓወየ ልሙስ</h2>
-      1 ጴጥሮስን ዮሃንስን ብታስዐይቲ ሰዓት ብጊዜ ጸሎት ናብ ቤተ መቕደስ ብሓንሳእ ደየቡ። <br />
+      1 <strong onclick="displayPerson(person.peter)">ጴጥሮስን&#128104;</strong> 
+      <strong onclick="displayPerson(person.john)">ዮሃንስን&#128104;</strong> 
+      <u onclick="wordD(word.ታስዐይቲ, event)" >ብታስዐይቲ ሰዓት</u> ብጊዜ ጸሎት ናብ <strong onclick="disPlc(plc.temple)" >ቤተ መቕደስ📍</strong> ብሓንሳእ ደየቡ። <br />
       2 ካብ ከርሲ ኣዲኡ ሒዙ ኣእጋሩ ዝሞተ ሰብኣይ ካብቶም ናብ ቤተ መቕደስ ዚአትው ምጽዋት ምእንቲ ኺልምን፡ ጾይሮም ኣብ
       ጸጽባሕ ኣብታ ጽብቕቲ እትበሀል ደገ ቤተ መቕደስ የቐምጥዎ ነበሩ።<br />
       3 ንሱ ኸኣ ጴጥሮስን ዮሃንስን ናብ ቤተ መቕደስ ኪኣትዉ ኸም ዝደለዩ ምስ ረአዮም፡ ኪምጽዉቱሉ ለመኖም።<br />
@@ -33,15 +36,17 @@
     </p>
     <p>
     <h2 class="sub-chapter" >ጴጥሮስ ኣብ ቤት መቕደስ ከም ዝተዛረበ</h2>
-    11 ኣብ ጴጥሮስን ዮሃንስን ለጊቡ ኸሎ ኸኣ፡ ኲሉ እቲ ህዝቢ እናተገረመ ኣብቲ ገበላ ሰሎሞን ዚብሀል ናባታቶም ጐየየ።<br/>
+    11 ኣብ ጴጥሮስን ዮሃንስን ለጊቡ ኸሎ ኸኣ፡ ኲሉ እቲ ህዝቢ እናተገረመ ኣብቲ 
+    <strong onclick="disPlc(plc.solomon)" >ገበላ ሰሎሞን📍</strong> ዚብሀል ናባታቶም ጐየየ።<br/>
     12 ጴጥሮስ ግና ምስ ረአዮም፡ ነቶም ህዝቢ መለሰሎም፡ ከምዚ ኢሉ፡ ኣቱም ሰብ እስራኤል፡ ንምንታይ በዚ ትግረሙ፡ ብገዛእ
     ሓይልና ወይስ ብጽድቅና ነዚ ኪኸይድ ከም ዝገበርናዮስ፡ ንምንታይ ንኣና ትጥምቱ አሎኹም።<br/>
-     13 ኣምላኽ ኣብርሃምን ይስሃቅን
-    ያእቆብን፡ ኣምላኽ ኣቦታትና፡ ንወዱ የሱስ ኣኽበሮ፡ ጲላጦስ ኪፍታሕ ምስ ፈረደሉ፡ ንስኻትኩም ንእኡ ኣሕሊፍኩም ሃብኩምዎን
+     13 ኣምላኽ <strong onclick="displayPerson(person.abraham)" >ኣብርሃምን&#128104;</strong> 
+     <strong onclick="displayPerson(person.isaac)">ይስሃቅን&#128104;</strong>
+    <strong onclick="displayPerson(person.jamesIsaac)">ያእቆብን&#128104;</strong>፡ ኣምላኽ ኣቦታትና፡ ንወዱ የሱስ ኣኽበሮ፡ ጲላጦስ ኪፍታሕ ምስ ፈረደሉ፡ ንስኻትኩም ንእኡ ኣሕሊፍኩም ሃብኩምዎን
     ኣብ ቅድሚኡ ኸሓድኩምዎን። <br/>
     14 እወ፡ ንስኻትኩም ነቲ ቅዱስን ጻድቕን ክሒድኩምሲ፡ ነቲ ነፍሲ ዝቐተለ ሰብኣይ ኪምሕረልኩም
     ለመንኩም። <br/>
-    15 ነቲ ራእሲ ህይወት ቀተልኩምዎ። ንእኡ ኣምላኽ ካብ ምውታት ኣተንስኦ፡ ንሕና ኸኣ፡ ነዚ ምስክሩ ኢና። <br/>
+    15 ነቲ <u onclick="wordD(word.ራእሲ, event)" >ራእሲ</u> ህይወት ቀተልኩምዎ። ንእኡ ኣምላኽ ካብ ምውታት ኣተንስኦ፡ ንሕና ኸኣ፡ ነዚ ምስክሩ ኢና። <br/>
     16
     ብስሙ ምእማን ከኣ፡ ስሙ ነዚ እትርእይዎን እትፈልጥዎን ሰብኣይ ኣጽንዖ፡ እታ ብእኡ ምእማን ድማ ነዚ ኣብ ቅድሚ ዂላትኩም
     ምሉእ ጥዕና ሀበቶ። <br/>
@@ -65,6 +70,11 @@
     26 ኣምላኽ ንነፍሲ ወከፍኩም ካብ ክፍኣቱ እናመለሰ ምእንቲ ኺባርኸኩምሲ፡ ንወዱ ኣተንሲኡ ቕድሚ ዂሉ
     ናባኻትኩም ለአኾ።
     </p>
+    <div class="topnav">
+        <span class="next"><a href="./acts2.html" > ምዕራፍ 2</a></span>
+        <span class="chapter">ምዕራፍ 3</span>  
+        <span class="next"><a href="acts4.html" > ምዕራፍ 4</a></span>
+      </div>
 </div>
    
     <script src="../script.js"></script>
