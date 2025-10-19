@@ -68,7 +68,7 @@ const plc = {
   akeldama: {
     name1: "አከልደማ",
     nameE1: "Akeldama",
-    nameM1: " ማለት ደም መሬት እዩ",
+    nameM1: " ግራት ደም",
     name2: "",
     nameE2: "",
     nameM2: "",
