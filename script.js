@@ -17,9 +17,9 @@ function displayPerson(m) {
   <h2> ${naam2} </h2>
   <h3>${def1}</h3>
   <h3>${def2} </h3>
-  <h3>${m.title}</h3>
-  <h3>${m.adres}</h3>
-  <h3>${m.info}</h3>
+  <h2>${m.title}</h2>
+  <h2>${m.adres}</h2>
+  <h3>${m.info}</h2>
   <button class="xbtn" onclick="de()">Close</button>
   `;
 }

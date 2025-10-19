@@ -223,13 +223,13 @@ const plc = {
   temple: {
     name1: "ቤተ መቅደስ",
     nameE1: "Temple",
-    nameM1: "ብሰለሞን ዝተሃንጸት ቤተ መቅደስ",
+    nameM1: "ታቦት ኣምላኽ ዝዓርፈሉ ቤት",
     name2: " ",
     nameE2: " ",
     nameM2: " ",
     vers: "",
     gMap: "https://maps.app.goo.gl/Tjo2tquCTZ2KgSQ3A",
-    info: "",
+    info: "ብሰለሞን ዝተሃንጸት ቤተ መቅደስ፡ ኣብ ከተማ የሩሳሌም(ከተማ ዳዊት) ትርከብ። ኣብ'ታ ዳዊት መስዋእቲ ክስውእ ዝዓደጋ መሬት። ኣብ'ታ ኣብርሃም ንይስሓቅ ከም መስዋእቲ ዘቕረበሉ ቦታ (ሞርያ) እያ ዝተሃንጸት ።",
   },
   solomon: {
     name1: " ገበላ ሰሎሞን",
