@@ -14,12 +14,12 @@ function displayPerson(m) {
   <div onclick="de()" class="x">X</div>
   ${sex} 
   <h2> ስም ${m.name1} (${m.nameE1}) </h2>
-  <h2> ${naam2} </h2>
   <h3>${def1}</h3>
+  <h2> ${naam2} </h2>  
   <h3>${def2} </h3>
   <h2>${m.title}</h2>
   <h2>${m.adres}</h2>
-  <h3>${m.info}</h2>
+  <h3>${m.info}</h3>
   <button class="xbtn" onclick="de()">Close</button>
   `;
 }
