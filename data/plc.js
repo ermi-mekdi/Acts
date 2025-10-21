@@ -242,6 +242,17 @@ const plc = {
     gMap: "",
     info: "ብወገን ምብራቅ ናይ ቤት መቅደስ ዝርከብ ኮይኑ ንመምሃርን ንመካቲዕን መጸለይን ኣብቲ ግዜ ይጥቀሙሉ ነይሮም። ሃዋርያት ነዚ ከም መስበኺ ይጥቀሙሉ ነይሮም",
   },
+  beautiful: {
+    name1: "ጽብቕቲ ደገ",
+    nameE1: "Beautiful",
+    nameM1: "ጽብቕቲ ደገ",
+    name2: " ",
+    nameE2: " ",
+    nameM2: " ",
+    vers: "",
+    gMap: "https://www.ritmeyer.com/2010/12/14/the-beautiful-gate-of-the-temple/",
+    info: "እዛ ጽብቕቲ ደገ ኣብ መጽሓፍ ቅዱስ ሓንሳእ ጥራይ እያ ተጠቒሳ ዘላ፡ ብዛዕባኣ ካብ ዝረኣኽዎ ሓበሬታ ኣብ map ጠውቑ።",
+  },
   end: {
     name1: " ",
     nameE1: " ",
