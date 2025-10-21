@@ -1,4 +1,4 @@
-// Woman   &#128105;     Man  &#128104;  locatie  📍
+// Woman   &#128105; Man  &#128104; locatie 📍 book &#128220;
 
 function displayPerson(m) {
   const display = document.createElement("div");
@@ -37,8 +37,7 @@ function disPlc(p) {
   const info = p.info ? p.info : "";
 
   display.innerHTML = `
-  <div onclick="de()" class="x">X</div>
- 
+  <div onclick="de()" class="x">X</div> 
   <h2> ${p.name1} (${p.nameE1})  ${p.name2}  ${p.nameE2} </h2>
   <h3>${def1}</h3>
   <h3>${def2} </h3>
@@ -64,4 +63,19 @@ function wordD(w, event) {
   display.style.left = event.clientX + window.scrollX + "px";
   display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
   setTimeout(de, 2000);
+}
+
+function vers(v, b, c, n) {
+  const display = document.createElement("div");
+  display.classList.add("person");
+  display.id = "pdisplay";
+  document.body.appendChild(display);
+  display.innerHTML = `
+    <div onclick="de()" class="x">X</div> 
+    <h2>${b} ${c} : ${n}</h2>
+    <h3>${v}</h3>
+    <button class="xbtn" onclick="de()">Close</button>
+    `;
+  console.log(b);
+  console.log(v);
 }
