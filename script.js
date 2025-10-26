@@ -9,17 +9,32 @@ function displayPerson(m) {
   const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
   const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
   const naam2 = m.name2 ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})` : "";
+  const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
+  const adres = m.adres
+    ? m.adres
+        .map(
+          (item) => `
+    <li>${item}</li>`
+        )
+        .join("")
+    : "";
+  const title = m.title
+    ? m.title.map((item) => `<li>${item}</li>`).join("")
+    : "";
 
   display.innerHTML = `
   <div onclick="de()" class="x">X</div>
-  ${sex} 
+  <h3>${sex}</h3>
   <h2> ስም ${m.name1} (${m.nameE1}) </h2>
-  <h3>${def1}</h3>
+  <h4>${def1}</h4>
   <h2> ${naam2} </h2>  
-  <h3>${def2} </h3>
-  <h2>${m.title}</h2>
-  <h2>${m.adres}</h2>
-  <h3>${m.info}</h3>
+  <h4>${def2} </h4>
+  <div class= "pdetails">  
+  <ul>${title}</ul>  
+  <ul>${adres}</ul>
+  <h4>ሓበሬታ</h4>
+  <ul>${info}</ul>
+  </div>
   <button class="xbtn" onclick="de()">Close</button>
   `;
 }
@@ -76,6 +91,4 @@ function vers(v, b, c, n) {
     <h3>${v}</h3>
     <button class="xbtn" onclick="de()">Close</button>
     `;
-  console.log(b);
-  console.log(v);
 }
