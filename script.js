@@ -88,7 +88,7 @@ function vers(t) {
     ? t
         .map(
           (item) =>
-            `<li><h2>${item.n}</h2>
+            `<li ><h3>${item.n}</h3>
       <h4>${item.d}</h4>
      </li>`
         )
@@ -100,5 +100,4 @@ function vers(t) {
     ${tq}
     <button class="xbtn" onclick="de()">Close</button>
     `;
-  console.log(t);
 }
