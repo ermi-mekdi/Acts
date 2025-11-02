@@ -27,7 +27,7 @@ function displayPerson(m) {
   <h3>${sex}</h3>
   <h2> ስም ${m.name1} (${m.nameE1}) </h2>
   <h4>${def1}</h4>
-  <h2> ${naam2} </h2>  
+  <h3> ${naam2} </h3>  
   <h4>${def2} </h4>
   <div class= "pdetails">  
   <ul>${title}</ul>  
@@ -47,18 +47,17 @@ function disPlc(p) {
 
   const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
   const def2 = p.nameM2 ? p.name2 + " ማለት " + p.nameM2 : "";
-  const vers = p.vers ? `<a herf= "${p.vers}" ` : "";
   const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
-  const info = p.info ? p.info : "";
-
+  const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
   display.innerHTML = `
   <div onclick="de()" class="x">X</div> 
   <h2> ${p.name1} (${p.nameE1})  ${p.name2}  ${p.nameE2} </h2>
-  <h3>${def1}</h3>
+  <h4>${def1}</h4>
   <h3>${def2} </h3>
-  <h3>${vers}</h3>
-  <h3>${gMap}</h3>
-  <h3>${info}</h3>
+  <div class= "pdetails">  
+  <h4>${gMap}</h4>
+  <ul>${info}</ul>
+  </div>
   <button class="xbtn" onclick="de()">Close</button>
   `;
 }
@@ -80,15 +79,26 @@ function wordD(w, event) {
   setTimeout(de, 2000);
 }
 
-function vers(v, b, c, n) {
+function vers(t) {
   const display = document.createElement("div");
   display.classList.add("person");
   display.id = "pdisplay";
   document.body.appendChild(display);
+  const tq = t
+    ? t
+        .map(
+          (item) =>
+            `<li><h2>${item.n}</h2>
+      <h4>${item.d}</h4>
+     </li>`
+        )
+        .join("")
+    : "";
+
   display.innerHTML = `
     <div onclick="de()" class="x">X</div> 
-    <h2>${b} ${c} : ${n}</h2>
-    <h3>${v}</h3>
+    ${tq}
     <button class="xbtn" onclick="de()">Close</button>
     `;
+  console.log(t);
 }
