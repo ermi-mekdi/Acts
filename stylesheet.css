@@ -64,6 +64,7 @@ a {
 }
 .pdetails {
   text-align: left;
+  margin-left: 2px;
 }
 strong {
   cursor: pointer;

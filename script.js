@@ -28,10 +28,13 @@ function displayPerson(m) {
   <h2> ስም ${m.name1} (${m.nameE1}) </h2>
   <h4>${def1}</h4>
   <h3> ${naam2} </h3>  
-  <h4>${def2} </h4>
+  <h4>${def2} </h4> 
   <div class= "pdetails">  
-  <ul>${title}</ul>  
+  <h4>ስራሕ</h4>
+  <ul>${title}</ul> 
+  <h4>አድራሻ</h4>
   <ul>${adres}</ul>
+   
   <h4>ሓበሬታ</h4>
   <ul>${info}</ul>
   </div>
