@@ -66,6 +66,11 @@ a {
   text-align: left;
   margin-left: 2px;
 }
+.vdetails {
+  text-align: left;
+  margin-left: 15px;
+  font-weight: normal;
+}
 strong {
   cursor: pointer;
 }

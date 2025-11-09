@@ -92,7 +92,7 @@ function vers(t) {
         .map(
           (item) =>
             `<li ><h3>${item.n}</h3>
-      <h4>${item.d}</h4>
+      <h4 class="vdetails">${item.d}</h4>
      </li>`
         )
         .join("")
@@ -100,7 +100,7 @@ function vers(t) {
 
   display.innerHTML = `
     <div onclick="de()" class="x">X</div> 
-    <ul>${tq}</ul>
+    ${tq}
     <button class="xbtn" onclick="de()">Close</button>
     `;
 }
