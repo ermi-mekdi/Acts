@@ -100,7 +100,7 @@ function vers(t) {
 
   display.innerHTML = `
     <div onclick="de()" class="x">X</div> 
-    ${tq}
+    <ul>${tq}</ul>
     <button class="xbtn" onclick="de()">Close</button>
     `;
 }
