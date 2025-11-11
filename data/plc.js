@@ -286,6 +286,17 @@ const plc = {
       "ብዛዕባኣ ካብ ዝረኣኽዎ ሓበሬታ ኣብ map ጠውቑ።",
     ],
   },
+  cyprus: {
+    name1: "ቆጵሮስ ",
+    nameE1: "Cyprus",
+    nameM1: " ",
+    name2: " ",
+    nameE2: " ",
+    nameM2: " ",
+    vers: [""],
+    gMap: "../assets/acts1.jpg",
+    info: [""],
+  },
   end: {
     name1: " ",
     nameE1: " ",
