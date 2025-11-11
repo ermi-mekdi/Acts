@@ -1,4 +1,4 @@
-// Woman   &#128105; Man  &#128104; locatie 📍 book &#128220;
+// Woman   &#128105; Man  &#128104; locatie 📍 book  &#128213;
 
 function displayPerson(m) {
   const display = document.createElement("div");

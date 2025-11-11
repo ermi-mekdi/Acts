@@ -401,4 +401,17 @@ const person = {
     ],
     man: true,
   },
+  joses: {
+    name1: "ዮሴፍ",
+    nameE1: "Joses",
+    nameM1: "ንሱ ይውስኽ ወይ የብዝሕ",
+    name2: " በርናባስ",
+    nameE2: "Barnabas",
+    nameM2: "ወዲ ምጽንናዕ",
+    ver: [""],
+    title: ["ሃዋርያ"],
+    adres: ["ዓዱ ቆጵሮስ"],
+    info: [],
+    man: true,
+  },
 };
