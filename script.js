@@ -8,9 +8,12 @@ function displayPerson(m) {
   const sex = m.man === true ? "&#128104; " : "&#128105; ";
   const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
   const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
-  const naam2 = m.name2 ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})` : "";
+  const naam2 =
+    m && m.name2 && String(m.name2).trim() !== ""
+      ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})`
+      : "";
   const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
-  const adres = m.adres
+  const adres = m
     ? m.adres
         .map(
           (item) => `
