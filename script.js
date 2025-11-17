@@ -52,7 +52,10 @@ function disPlc(p) {
   document.body.appendChild(display);
 
   const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
-  const def2 = p.nameM2 ? p.name2 + " ማለት " + p.nameM2 : "";
+  const def2 =
+    p && p.name2 && String(p.name2).trim() !== ""
+      ? `ካልኣይ ስም  ${p.name2}  (${p.nameE2})`
+      : "";
   const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
   const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
   display.innerHTML = `

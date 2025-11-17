@@ -289,7 +289,7 @@ const plc = {
   cyprus: {
     name1: "ቆጵሮስ ",
     nameE1: "Cyprus",
-    nameM1: " ",
+    nameM1: "ሃብታም ብነሓስ  ",
     name2: " ",
     nameE2: " ",
     nameM2: " ",
