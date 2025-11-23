@@ -120,3 +120,25 @@ u {
   background-color: rgba(245, 136, 117, 0.404);
   font-weight: bolder;
 }
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.ppl {
+  width: 30%;
+  border: none;
+  border-radius: 8px;
+  background-color: #b3a88a;
+}
+.js-pplList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+.detaile {
+  width: 60%;
+  border: none;
+  border-radius: 8px;
+  background-color: #b3a88a;
+}

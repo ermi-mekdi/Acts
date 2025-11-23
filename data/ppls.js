@@ -1,5 +1,6 @@
 const person = {
   theophilus: {
+    id: "theophilus",
     name1: "ቴዎፍሎስ",
     nameE1: "Theophilus",
     nameM1: "ዓርኪ/ ፍቁር  ኣምላኽ",
@@ -13,6 +14,7 @@ const person = {
     man: true,
   },
   luke: {
+    id: "luke",
     name1: "ሉቃስ",
     nameE1: "Luke",
     nameM1: "እቲ ዝበርሀ ",
@@ -26,6 +28,7 @@ const person = {
     man: true,
   },
   barsabas: {
+    id: "barsabas",
     name1: "ባርሳባስ",
     nameE1: "Barsabas",
     nameM1: "ወዲ ሰንበት ",
@@ -39,6 +42,7 @@ const person = {
     man: true,
   },
   matthias: {
+    id: "matthias",
     name1: "ማትያስ",
     nameE1: "Matthias",
     nameM1: "ህያብ ኣምላኽ ",
@@ -52,6 +56,7 @@ const person = {
     man: true,
   },
   peter: {
+    id: "peter",
     name1: "ጴጥሮስ",
     nameE1: "Peter",
     nameM1: "ከውሒ",
@@ -75,6 +80,7 @@ const person = {
     man: true,
   },
   john: {
+    id: "john",
     name1: "ዮሐንስ",
     nameE1: "John",
     nameM1: "ኣምላኽ ጸጋዊ",
@@ -93,6 +99,7 @@ const person = {
     man: true,
   },
   james1: {
+    id: "james1",
     name1: "ያዕቆብ",
     nameE1: "James",
     nameM1: "ሓንኳሊ ",
@@ -106,6 +113,7 @@ const person = {
     man: true,
   },
   andrew: {
+    id: "andrew",
     name1: "እንድርያስ",
     nameE1: "Andrew",
     nameM1: "ተባዕ（ሰብኣይ） ",
@@ -119,6 +127,7 @@ const person = {
     man: true,
   },
   philip: {
+    id: "philip",
     name1: "ፊልጶስ",
     nameE1: "Philip",
     nameM1: "ተንፈረስ ዘፍቅር(ዓርኪ） ",
@@ -127,12 +136,12 @@ const person = {
     nameM2: "",
     ver: [""],
     title: ["ሃዋርያ"],
-
     adres: [""],
     info: [""],
     man: true,
   },
   thomas: {
+    id: "thomas",
     name1: "ቶማስ",
     nameE1: "Thomas",
     nameM1: "ማንታ ",
@@ -146,6 +155,7 @@ const person = {
     man: true,
   },
   bartholomew: {
+    id: "bartholomew",
     name1: "በርተሎሜዎስ",
     nameE1: "Bartholomew",
     nameM1: "ወዲ ቀደም（ሃብታም መሬት） ",
@@ -159,6 +169,7 @@ const person = {
     man: true,
   },
   matthew: {
+    id: "matthew",
     name1: "ማቴዎስ",
     nameE1: "Matthew",
     nameM1: "ህያብ ኣምላኽ ",
@@ -172,6 +183,7 @@ const person = {
     man: true,
   },
   jamesAlphaeus: {
+    id: "jamesAlphaeus",
     name1: "ያእቆብ ወዲ እልፍዮስ",
     nameE1: "James Alphaeus",
     nameM1: "ሓንኳሊ  ",
@@ -185,6 +197,7 @@ const person = {
     man: true,
   },
   simonZealots: {
+    id: "simonZealots",
     name1: "ስምኦን ቀናእ",
     nameE1: "Simon the Zealot",
     nameM1: "ንሱ ይሰምዕ እዩ ",
@@ -200,6 +213,7 @@ const person = {
     man: true,
   },
   judasJames: {
+    id: "judasJames",
     name1: "ይሁዳ ወዲ ያእቆብ",
     nameE1: "Judas James",
     nameM1: "ምስጋና ",
@@ -213,6 +227,7 @@ const person = {
     man: true,
   },
   maryJ: {
+    id: "maryJ",
     name1: "ማርያም",
     nameE1: "Mary",
     nameM1: " ብርህው/ብርሃን",
@@ -226,6 +241,7 @@ const person = {
     man: false,
   },
   judasAs: {
+    id: "judasAs",
     name1: "ይሁዳ ኣስቆረታዊ",
     nameE1: "Judas",
     nameM1: "ምስጋና ",
@@ -239,6 +255,7 @@ const person = {
     man: true,
   },
   abraham: {
+    id: "abraham",
     name1: "አብርሃም",
     nameE1: "Abraham",
     nameM1: "ኣቦ ብዙሓት",
@@ -252,6 +269,7 @@ const person = {
     man: true,
   },
   isaac: {
+    id: "isaac",
     name1: "ይስሃቅ ",
     nameE1: "Isaac",
     nameM1: "",
@@ -265,6 +283,7 @@ const person = {
     man: true,
   },
   jamesIsaac: {
+    id: "jamesIsaac",
     name1: "ያዕቆብ ",
     nameE1: "James",
     nameM1: "ሓንኳሊ ",
@@ -278,6 +297,7 @@ const person = {
     man: true,
   },
   pilate: {
+    id: "pilate",
     name1: "ጲላጦስ ",
     nameE1: "Pilate",
     nameM1: " ",
@@ -291,6 +311,7 @@ const person = {
     man: true,
   },
   barabbas: {
+    id: "barabbas",
     name1: "በርባን ",
     nameE1: "Barabbas",
     nameM1: "ወዲ ኣቦ",
@@ -304,6 +325,7 @@ const person = {
     man: true,
   },
   moses: {
+    id: "moses",
     name1: "ሙሴ ",
     nameE1: "Moses",
     nameM1: "ካብ ማይ ዝወጸ ወይ ዝተረኸበ",
@@ -323,6 +345,7 @@ const person = {
     man: true,
   },
   annaHPriest: {
+    id: "annaHPriest",
     name1: "ሃና",
     nameE1: "Annas",
     nameM1: "ጸጋ፡ ፍትዊ",
@@ -341,6 +364,7 @@ const person = {
     man: true,
   },
   caiaphas: {
+    id: "caiaphas",
     name1: "ቀያፋ",
     nameE1: "Caiaphas",
     nameM1: "ሓባኢ፡ ሸፋኒ፡ ከውሒ፡ መዕቆሪ",
@@ -357,6 +381,7 @@ const person = {
     man: true,
   },
   johnAnnas: {
+    id: "johnAnnas",
     name1: "ዮሃንስ",
     nameE1: "John",
     nameM1: "ኣምላኽ ጸጋዊ",
@@ -370,6 +395,7 @@ const person = {
     man: true,
   },
   alexander: {
+    id: "alexander",
     name1: "እስክንድሮስ",
     nameE1: "Alexander",
     nameM1: "ንወዲ ሰብ ዝከላኸል",
@@ -383,6 +409,7 @@ const person = {
     man: true,
   },
   lame1: {
+    id: " lame1",
     name1: "ኣእጋሩ ዝሞተ ሰብኣይ",
     nameE1: "Man who was lame",
     nameM1: "ኣእጋሩ ዝለመሰ",
@@ -402,6 +429,7 @@ const person = {
     man: true,
   },
   joses: {
+    id: "joses",
     name1: "ዮሴፍ",
     nameE1: "Joses",
     nameM1: "ንሱ ይውስኽ ወይ የብዝሕ",
@@ -415,6 +443,7 @@ const person = {
     man: true,
   },
   ananiasSapphira: {
+    id: "ananiasSapphira",
     name1: "ሃናንያ",
     nameE1: "Ananias",
     nameM1: "ብኣምላኽ ዝተጸገወ",
@@ -434,6 +463,7 @@ const person = {
     man: true,
   },
   sapphira: {
+    id: "sapphira",
     name1: "ሰጲራ",
     nameE1: "Sapphira",
     nameM1: "ክቡር እምኒ(ኣልማዝ፡ ሉል)",
