@@ -13,6 +13,7 @@ function displayPerson(m) {
       ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})`
       : "";
   const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
+  const vers = m.ver ? m.ver.map((item) => `<li>${item}</li>`).join("") : "";
   const adres = m
     ? m.adres
         .map(
@@ -37,7 +38,7 @@ function displayPerson(m) {
   <ul>${title}</ul> 
   <h4>አድራሻ</h4>
   <ul>${adres}</ul>
-   
+  <ul>${vers}</ul>
   <h4>ሓበሬታ</h4>
   <ul>${info}</ul>
   </div>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ti">
+  <head>
+    <title>ግብረ ሃዋርያት</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/faviacts.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../data/ppls.js"></script>
+    <script src="../data/plc.js"></script>
+    
+    <script src="../data/ver.js"></script>
+  </head>
+  <body>
+    <div class="bo">
+      <div class="list">
+        <div class="ppl">
+          <h2>ኣስማት ሰባት</h2>
+          <div class="js-pplList">   </div>
+        </div>
+        <div class="detaile">
+          <h2>ሓበሬታ ሰባት</h2>
+        </div>
+      </div>
+    </div>
+     <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSduaQQSwAUTD5Y6EuvoVArlR06qRO55GJonebrXt1udPpsfrw/viewform?usp=sharing&ouid=111947718828909702830">ንምእራምን ንምምዕርራይን ኣብዚኣ ጠውቑ</a>
+    </div>
+    </div>
+    <script>
+       const pplListEl = document.querySelector('.pplList');
+  let pplHTML = '';
+
+  // persons is an object — convert to array
+  const pplObj = window.persons || window.ppls || {};
+  const pplArray = Array.isArray(pplObj) ? pplObj : Object.values(pplObj);
+
+  pplArray.forEach((person) => {
+    const label = person.name || person.name1 || person.nameE1 || 'Unknown';
+    pplHTML += `<li>${label}</li>`;
+  });
+
+  pplListEl.innerHTML = pplHTML;
+      console.log(pplObj);
+    </script>
+    <script src="../script.js"></script>
+
+  </body>
+</html>
