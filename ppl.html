@@ -20,6 +20,8 @@
         </div>
         <div class="detaile">
           <h2>ሓበሬታ ሰባት</h2>
+          <div class="js-pplDetail"></div>
+
         </div>
       </div>
     </div>
@@ -27,22 +29,68 @@
     </div>
     </div>
     <script>
-       const pplListEl = document.querySelector('.pplList');
-  let pplHTML = '';
+      const pplListEl = document.querySelector('.js-pplList');
+      const detailEl = document.querySelector('.js-pplDetail');
+      function disPp(p){
+        const adres = p
+          ? p.adres
+              .map(
+                (item) => `
+          <li>${item}</li>`
+              )
+              .join("")
+          : "";
+        const title = p.title
+          ? p.title.map((item) => `<li>${item}</li>`).join(""): "";
+        const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
+        const vers = p.ver ? p.ver.map((item) => `<li>${item}</li>`).join("") : "";
+        detailEl.innerHTML = `
+        <h4> ${p.name1} ${p.nameE1}</h4>
+        <h4> ${p.nameM1} </h4>
+        <h4> ${p.name2} ${p.nameE2}</h4>
+        <h4> ${p.nameM2} </h4>
+        <ul>${adres}</ul>
+        <ul>${title}</ul>
+        <ul>${vers}</ul>
+        <ul>${info}</ul>
+        `
+      }
+      
+     
+      fetch('../data/ppls.json')
+        .then(r => r.json())// load json
+        
+        .then(data => {
+          console.log(data);
+          // normalize top-level shape: object -> array, or already array
+          const pplArray = Array.isArray(data) ? data : Object.values(data);
+          pplListEl.innerHTML = '';
 
-  // persons is an object — convert to array
-  const pplObj = window.persons || window.ppls || {};
-  const pplArray = Array.isArray(pplObj) ? pplObj : Object.values(pplObj);
+          pplArray.forEach(item => {
+            // item might itself be an array [person, ...], or an object { person: {...} }, or the person directly
+            let person = Array.isArray(item) ? item[0] : item;
+            if (person && person.person) person = person.person;
 
-  pplArray.forEach((person) => {
-    const label = person.name || person.name1 || person.nameE1 || 'Unknown';
-    pplHTML += `<li>${label}</li>`;
-  });
+            if (!person) return; // skip bad entries
 
-  pplListEl.innerHTML = pplHTML;
-      console.log(pplObj);
+            const li = document.createElement('li');
+            li.style.cursor = 'pointer';
+            li.textContent = person.name1 || person.nameE1 || person.name || person.id || 'Unknown';
+
+            li.addEventListener('click', () => {
+              if (typeof disPp === 'function') disPp(person);
+              else console.warn('display function disPp not found', person);
+            });
+
+            pplListEl.appendChild(li);
+          });
+
+          console.log('rendered', pplListEl.children.length);
+        });
+  
+        
     </script>
-    <script src="../script.js"></script>
+    
 
   </body>
 </html>
