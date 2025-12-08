@@ -504,4 +504,22 @@ const person = {
     ],
     man: false,
   },
+  gamaliel: {
+    id: "gamaliel",
+    name1: "ገማልኤል",
+    nameE1: "Gamaliel",
+    nameM1: "ኣምላኽ ዓስበይ(ደሞዘይ) እዩ።",
+    name2: " ",
+    nameE2: "",
+    nameM2: "",
+    ver: [""],
+    title: ["መምህር ሕጊ, ፈሪሳዊ"],
+    adres: [""],
+    info: [
+      "ኣብቲ ዂሉ ህዝቢ ዝኸበረ መምህር ሕጊ",
+      "ኣባል ባይቶ ኣይሁድ ነይሩ",
+      "ጳውሎስ ባዕሉ ብገማልኤል ኣብ የሩሳሌም እዩ ተማሂሩ",
+    ],
+    man: false,
+  },
 };
