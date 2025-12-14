@@ -1,5 +1,71 @@
 // Woman   &#128105; Man  &#128104; locatie 📍 book  &#128213;
 
+window.ppls = null;
+(async function load() {
+  try {
+    const res = await fetch("../data/ppls.json");
+    if (!res.ok) throw new Error(res.status);
+    window.ppls = await res.json();
+    console.log("ppls loaded", window.ppls);
+  } catch (err) {
+    console.error("Failed to load ppls.json", err);
+    window.ppls = {};
+  }
+})();
+
+function dP(p) {
+  const d = window.ppls;
+  const m = d[p];
+
+  const display = document.createElement("div");
+  display.classList.add("person");
+  display.id = "pdisplay";
+  document.body.appendChild(display);
+  const sex = m.man === true ? "&#128104; " : "&#128105; ";
+  const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
+  const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
+  const naam2 =
+    m && m.name2 && String(m.name2).trim() !== ""
+      ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})`
+      : "";
+  const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
+  const vers = m.ver ? m.ver.map((item) => `<li>${item}</li>`).join("") : "";
+  const adres =
+    m && m.adres && String(m.adres).trim() !== ""
+      ? m.adres
+          .map(
+            (item) => `
+            
+    <li>${item}</li>`
+          )
+          .join("")
+      : "";
+  const title = m.title
+    ? m.title.map((item) => `<li>${item}</li>`).join("")
+    : "";
+
+  display.innerHTML = `
+  <div onclick="de()" class="x">X</div>
+  <h3>${sex}</h3>
+  <h2> ስም ${m.name1} (${m.nameE1}) </h2>
+  <h4>${def1}</h4>
+  <h3> ${naam2} </h3>  
+  <h4>${def2} </h4> 
+  <div class= "pdetails">  
+  <h4>ስራሕ</h4>
+  <ul>${title}</ul> 
+  <h4>አድራሻ</h4>
+  <ul>${adres}</ul>
+  <ul>${vers}</ul>
+  <h4>ሓበሬታ</h4>
+  <ul>${info}</ul>
+  </div>
+  <button class="xbtn" onclick="de()">Close</button>
+  `;
+  // console.log(d);
+  // console.log(d[p]);
+}
+
 function displayPerson(m) {
   const display = document.createElement("div");
   display.classList.add("person");
