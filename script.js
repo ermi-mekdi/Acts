@@ -6,10 +6,34 @@ window.ppls = null;
     const res = await fetch("../data/ppls.json");
     if (!res.ok) throw new Error(res.status);
     window.ppls = await res.json();
-    console.log("ppls loaded", window.ppls);
+    //console.log("ppls loaded", window.ppls);
   } catch (err) {
     console.error("Failed to load ppls.json", err);
     window.ppls = {};
+  }
+})();
+window.ver = null;
+(async function load() {
+  try {
+    const res = await fetch("../data/ver.json");
+    if (!res.ok) throw new Error(res.status);
+    window.ver = await res.json();
+    //console.log("vers loaded", window.ver);
+  } catch (err) {
+    console.error("Failed to load vers.json", err);
+    window.ver = {};
+  }
+})();
+window.word = null;
+(async function load() {
+  try {
+    const res = await fetch("../data/word.json");
+    if (!res.ok) throw new Error(res.status);
+    window.word = await res.json();
+    //console.log("vers loaded", window.word);
+  } catch (err) {
+    console.error("Failed to load vers.json", err);
+    window.word = {};
   }
 })();
 
@@ -153,6 +177,54 @@ function wordD(w, event) {
   display.style.left = event.clientX + window.scrollX + "px";
   display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
   setTimeout(de, 2000);
+}
+function wD(w, event) {
+  const q = window.word;
+  const m = q[w];
+  const display = document.createElement("div");
+  display.classList.add("word");
+  display.id = "pdisplay";
+  document.body.appendChild(display);
+  display.innerHTML = `  
+    <h2>${m.d}</h2>    
+  `;
+  // Position at click
+  display.style.position = "absolute";
+  display.style.left = event.clientX + window.scrollX + "px";
+  display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
+  setTimeout(de, 2000);
+}
+function getVerseByPath(path) {
+  if (!window.ver) {
+    console.warn("ver.json not loaded yet");
+    return null;
+  }
+  const keys = path.split("."); // e.g., ['o', 'exo', 'c20', 'v20']
+  let obj = window.ver;
+  for (const key of keys) {
+    if (!obj || typeof obj !== "object") return null;
+    obj = obj[key];
+  }
+  return obj;
+}
+function dV(b) {
+  if (!Array.isArray(b)) {
+    console.warn("dV: b should be an array of paths, got:", b);
+    return;
+  }
+
+  // Map each path in b to its verse object, filter out any nulls
+  const verses = b.map((path) => getVerseByPath(path)).filter((verse) => verse);
+
+  if (verses.length === 0) {
+    console.warn("No verses found for paths:", b);
+    return;
+  }
+
+  // Pass the array of verse objects to vers() for display
+  vers(verses);
+  //console.log("Paths:", b);
+  //console.log("Verses:", verses);
 }
 
 function vers(t) {
