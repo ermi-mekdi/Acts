@@ -24,6 +24,18 @@ window.ver = null;
     window.ver = {};
   }
 })();
+window.plc = null;
+(async function load() {
+  try {
+    const res = await fetch("../data/plc.json");
+    if (!res.ok) throw new Error(res.status);
+    window.plc = await res.json();
+    //console.log("vers loaded", window.word);
+  } catch (err) {
+    console.error("Failed to load plc.json", err);
+    window.plc = {};
+  }
+})();
 window.word = null;
 (async function load() {
   try {
@@ -32,7 +44,7 @@ window.word = null;
     window.word = await res.json();
     //console.log("vers loaded", window.word);
   } catch (err) {
-    console.error("Failed to load vers.json", err);
+    console.error("Failed to load word.json", err);
     window.word = {};
   }
 })();
@@ -89,7 +101,6 @@ function dP(p) {
   // console.log(d);
   // console.log(d[p]);
 }
-
 function displayPerson(m) {
   const display = document.createElement("div");
   display.classList.add("person");
@@ -136,6 +147,36 @@ function displayPerson(m) {
   `;
 }
 
+function dPlc(c) {
+  const d = window.plc;
+  const p = d[c];
+
+  const display = document.createElement("div");
+  display.classList.add("person");
+  display.id = "pdisplay";
+  document.body.appendChild(display);
+
+  const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
+  const def2 =
+    p && p.name2 && String(p.name2).trim() !== ""
+      ? `ካልኣይ ስም  ${p.name2}  (${p.nameE2})`
+      : "";
+  const vers = p.vers ? p.vers.map((item) => `<li>${item}</li>`).join("") : "";
+  const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
+  const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
+  display.innerHTML = `
+  <div onclick="de()" class="x">X</div> 
+  <h2> ${p.name1} (${p.nameE1})  ${p.name2}  ${p.nameE2} </h2>
+  <h4>${def1}</h4>
+  <h3>${def2} </h3>
+  <div class= "pdetails"> 
+  <ul>${vers}</ul> 
+  <h4>${gMap}</h4>
+  <ul>${info}</ul>
+  </div>
+  <button class="xbtn" onclick="de()">Close</button>
+  `;
+}
 function disPlc(p) {
   const display = document.createElement("div");
   display.classList.add("person");
