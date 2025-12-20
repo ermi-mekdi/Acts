@@ -520,5 +520,47 @@
       "ጳውሎስ ባዕሉ ብገማልኤል ኣብ የሩሳሌም እዩ ተማሂሩ"
     ],
     "man": true
+  },
+  "herodJuda": {
+    "id": "herodJuda",
+    "name1": "ሄሮድስ",
+    "nameE1": "Herod",
+    "nameM1": "ወዲ ጅግና፡ እቲ ጅግና",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ንጉስ"],
+    "adres": ["ይሁዳ"],
+    "info": ["ኣብ ልደት ዮሃንስን ኢየሱስን ንጉስ ይሁዳ ዝነበረ እዩ"],
+    "man": true
+  },
+  "zacharias": {
+    "id": "zacharias",
+    "name1": "ዘካርያስ",
+    "nameE1": "Zacharias",
+    "nameM1": "ኣምላኽ ይዝክር",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ካህን"],
+    "adres": ["ይሁዳ"],
+    "info": ["ኣቦ ዮሃንስ መጥምቕ"],
+    "man": true
+  },
+  "elizabeth": {
+    "id": "elizabeth",
+    "name1": "ኤልሳቤጥ",
+    "nameE1": "Elizabeth",
+    "nameM1": "",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": [""],
+    "adres": ["ይሁዳ"],
+    "info": ["ኣደ ዮሃንስ መጥምቕ"],
+    "man": false
   }
 }

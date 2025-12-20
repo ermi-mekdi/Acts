@@ -219,7 +219,7 @@ function wordD(w, event) {
   display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
   setTimeout(de, 2000);
 }
-function wD(w, event) {
+function dW(w, event) {
   const q = window.word;
   const m = q[w];
   const display = document.createElement("div");
