@@ -553,14 +553,28 @@
     "id": "elizabeth",
     "name1": "ኤልሳቤጥ",
     "nameE1": "Elizabeth",
-    "nameM1": "",
+    "nameM1": "ኣምላኽ መብጽዓይ እዩ፡ ኣምላኸይ ምልኣተይ/ፍጻመይ እዩ",
     "name2": " ",
     "nameE2": "",
     "nameM2": "",
     "ver": [""],
     "title": [""],
     "adres": ["ይሁዳ"],
-    "info": ["ኣደ ዮሃንስ መጥምቕ"],
+    "info": ["ኣደ ዮሃንስ መጥምቕ", "ዘመድ ማርያም ኣደ የሱስ"],
     "man": false
+  },
+  "gabriel": {
+    "id": "gabriel",
+    "name1": "ኤልሳቤጥ",
+    "nameE1": "Gabriel",
+    "nameM1": "ኣምላኽ ሓይለይ እዩ፡ ልዑል ኣምላኽ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["መልኣኽ እግዚኣብሔር"],
+    "adres": [""],
+    "info": [""],
+    "man": true
   }
 }

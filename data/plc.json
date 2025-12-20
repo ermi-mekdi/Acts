@@ -308,6 +308,18 @@
     "gMap": "../assets/acts1.jpg",
     "info": [""]
   },
+  "nazareth": {
+    "id": "nazareth",
+    "name1": "ናዝሬት",
+    "nameE1": "Nazareth",
+    "nameM1": "ጨንፈር፡  ሕሉው ቦታ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": ["ዮሃንስ 1:46"],
+    "gMap": "",
+    "info": [""]
+  },
   "end": {
     "name1": " ",
     "nameE1": " ",
