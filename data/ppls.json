@@ -576,5 +576,19 @@
     "adres": [""],
     "info": [""],
     "man": true
+  },
+  "david": {
+    "id": "david",
+    "name1": "ዳዊት",
+    "nameE1": "David",
+    "nameM1": "ፍቱው፡ ፍትዊ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ንጉስ", "ጓሳ", "ነብይ", "ዘማሪ", "ተዋጋኢ"],
+    "adres": ["ቤት ልሄም", "ዮርሳሌም", "ይሁዳ"],
+    "info": [""],
+    "man": true
   }
 }
