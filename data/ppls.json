@@ -586,8 +586,36 @@
     "nameE2": "",
     "nameM2": "",
     "ver": [""],
-    "title": ["ንጉስ", "ጓሳ", "ነብይ", "ዘማሪ", "ተዋጋኢ"],
-    "adres": ["ቤት ልሄም", "ዮርሳሌም", "ይሁዳ"],
+    "title": ["ጓሳ", "ዘማሪ", "ነብይ", "ተዋጋኢ", "ንጉስ"],
+    "adres": ["ዓዱ ቤት ልሄም፡ ይሁዳ", "ዮርሳሌም፡ ይሁዳ"],
+    "info": [""],
+    "man": true
+  },
+  "augustus": {
+    "id": "augustus",
+    "name1": "ኣውጉስጦስ",
+    "nameE1": "Augustus",
+    "nameM1": "ዘብዝሕ፡ ዘዕብይ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ገዛኢ ግዝኣት ሮማ", "ንጉስ"],
+    "adres": ["ሮማ"],
+    "info": [""],
+    "man": true
+  },
+  "quirinius": {
+    "id": "quirinius",
+    "name1": " ቀሬኔዎስ",
+    "nameE1": "Quirinius",
+    "nameM1": "ሓያል ተከላኸላይ፡ ሓያል ገባሪ ሰላም",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ገዛኢ ሶርያ"],
+    "adres": ["ሶርያ"],
     "info": [""],
     "man": true
   }
