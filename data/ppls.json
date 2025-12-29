@@ -618,5 +618,51 @@
     "adres": ["ሶርያ"],
     "info": [""],
     "man": true
+  },
+  "josephMary": {
+    "id": "josephMary",
+    "name1": " ዮሴፍ",
+    "nameE1": "Joseph",
+    "nameM1": "ኣምላኽ ክውስኽ እዩ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ጸራቢ ዕንጸይቲ"],
+    "adres": ["ዓዱ ቤተ ልሄም", "ነባሪ ናዝሬት"],
+    "info": ["ሕጹይ ማርያም", "ጻድቕ ሰብኣይ"],
+    "man": true
+  },
+  "simeonProphet": {
+    "id": "simeonProphet",
+    "name1": "ስምኦን",
+    "nameE1": "Simeon",
+    "nameM1": "ንሱ ይሰምዕ እዩ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ነብይ"],
+    "adres": ["የሩሳሌም"],
+    "info": ["ጻድቕ፡ ንኣምላኽ ዚፈርህ", "ምጽንናዕ እስራኤል ዚጽበ", "መንፈስ ቅዱስ ድማ ነበሮ"],
+    "man": true
+  },
+  "annaPhanuel": {
+    "id": "annaPhanuel",
+    "name1": "ሃና",
+    "nameE1": " Anna",
+    "nameM1": "ጸጋ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ነብዪት"],
+    "adres": [""],
+    "info": [
+      "ሰማንያን ኣርባዕተን ዓመት ዝዕድሚኣ መበለት",
+      "ኣብ ቤተ መቕደስ ከይወጸት፡ ብጾምን ብጸሎትን ለይትን መዓልትን ንኣምላኽ ተገልግል",
+      "መንፈስ ቅዱስ ድማ ነበሮ"
+    ],
+    "man": false
   }
 }

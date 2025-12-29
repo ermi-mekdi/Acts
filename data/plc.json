@@ -320,7 +320,7 @@
     "gMap": "",
     "info": [""]
   },
-  "Syria": {
+  "syria": {
     "id": "syria",
     "name1": "ሶርያ",
     "nameE1": "Syria",
@@ -333,10 +333,22 @@
     "info": [""]
   },
   "end": {
-    "id": "end",
+    "id": "",
     "name1": " ",
     "nameE1": " ",
     "nameM1": " ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": [""]
+  },
+  "bethlehem": {
+    "id": "bethlehem",
+    "name1": "ቤት-ልሄም",
+    "nameE1": "Bethlehem",
+    "nameM1": " ቤት እንጌራ",
     "name2": " ",
     "nameE2": " ",
     "nameM2": " ",
