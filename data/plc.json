@@ -329,20 +329,23 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "https://ermi-mekdi.github.io/Acts/assets/acts1.jpg",
     "info": [""]
   },
-  "end": {
-    "id": "",
-    "name1": " ",
-    "nameE1": " ",
-    "nameM1": " ",
+  "libertines": {
+    "id": "libertines",
+    "name1": "ሊቤርጢኖን ",
+    "nameE1": "Libertines",
+    "nameM1": "ውጹኣት ሓራ",
     "name2": " ",
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
     "gMap": "",
-    "info": [""]
+    "info": [
+      "ቤት ጸሎት ካብ ቄሬኔዎንን ካብ እስክንድርያን ካብ ቂልቅያን ካብ እስያን ዝመጺኦም ዝመስረትዋ ይግመት",
+      "ምናልባት እዛ ቤት ጸሎት በቶም ካብ ባርነት ሓራ ዝወጹ ዝቆመት ትኸውን"
+    ]
   },
   "bethlehem": {
     "id": "bethlehem",
