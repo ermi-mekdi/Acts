@@ -776,5 +776,19 @@
     "adres": [""],
     "info": [""],
     "man": true
+  },
+  "joshua": {
+    "id": "joshua",
+    "name1": "እያሱ",
+    "nameE1": "Joshua",
+    "nameM1": "ኣምላኽ መድሓኒ(መድሓኒየይ) እዩ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": [""],
+    "adres": [""],
+    "info": [""],
+    "man": true
   }
 }
