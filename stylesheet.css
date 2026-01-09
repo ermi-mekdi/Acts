@@ -135,6 +135,8 @@ u {
   padding: 0;
   margin: 0;
   height: auto;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 .detaile {
   width: 60%;

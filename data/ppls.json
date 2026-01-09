@@ -762,5 +762,19 @@
     "adres": ["ኣንጾክያ"],
     "info": ["ዓሌቱ ካብ ኣህዛብ ኮይኑ ንእምነት ኣይሁድ ዝተቐበለ"],
     "man": true
+  },
+  "josephJacob": {
+    "id": "josephJacob",
+    "name1": "ዮሴፍ",
+    "nameE1": "Joseph",
+    "nameM1": "ኣምላኽ ክውስኽ እዩ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": [""],
+    "adres": [""],
+    "info": [""],
+    "man": true
   }
 }

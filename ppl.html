@@ -2,7 +2,7 @@
 <html lang="ti">
   <head>
     <title>ግብረ ሃዋርያት</title>
-    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
     <link rel="icon" type="image/x-icon" href="./assets/faviacts.jpg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,6 +49,7 @@
         <h4> ${p.nameM1} </h4>
         <h4> ${p.name2} ${p.nameE2}</h4>
         <h4> ${p.nameM2} </h4>
+        <h4> ID :  ${p.id} </h4>
         <ul>${adres}</ul>
         <ul>${title}</ul>
         <ul>${vers}</ul>
@@ -61,7 +62,7 @@
         .then(r => r.json())// load json
         
         .then(data => {
-          console.log(data);
+          //console.log(data);
           // normalize top-level shape: object -> array, or already array
           const pplArray = Array.isArray(data) ? data : Object.values(data);
           pplListEl.innerHTML = '';
@@ -85,7 +86,7 @@
             pplListEl.appendChild(li);
           });
 
-          console.log('rendered', pplListEl.children.length);
+          //console.log('rendered', pplListEl.children.length);
         });
   
         
