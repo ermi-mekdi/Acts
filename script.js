@@ -290,3 +290,13 @@ function vers(t) {
     <button class="xbtn" onclick="de()">Close</button>
     `;
 }
+
+function dayNight() {
+  let mode = "";
+  mode = "&#9728;" ? (mode = "&#9728;") : (mode = "&#9728;");
+  let modebtn = document.getElementById("dark-mode");
+  const body = document.body;
+  body.classList.toggle("dark-mode");
+  modebtn.innerHTML = mode;
+  console.log(mode);
+}
