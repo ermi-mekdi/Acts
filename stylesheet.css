@@ -5,7 +5,7 @@ body {
   background-color: #dacca5;
 }
 .dark-mode {
-  background-color: #1a1919;
+  background-color: #242222;
   color: #e4dbdb;
 }
 #dark-mode {
@@ -42,8 +42,8 @@ h1 {
 }
 .next {
   cursor: pointer;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 14px;
   text-decoration: none;
 }

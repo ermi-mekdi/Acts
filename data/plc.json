@@ -359,5 +359,17 @@
     "vers": [""],
     "gMap": "",
     "info": [""]
+  },
+  "haran": {
+    "id": "haran",
+    "name1": "ካራን",
+    "nameE1": "Haran",
+    "nameM1": "መስቀላዊ መገዲ፡ ንግዳዊ መንገዲ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "https://maps.app.goo.gl/gRbSWuXeSjaNAvvX7",
+    "info": ["ናይ ሎሚ ቱርኪ ጥቓ ዶብ ምስ ሶርያ ትርከብ"]
   }
 }
