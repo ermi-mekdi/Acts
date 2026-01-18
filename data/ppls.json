@@ -130,7 +130,7 @@
     "id": "philip",
     "name1": "ፊልጶስ",
     "nameE1": "Philip",
-    "nameM1": "ተንፈረስ ዘፍቅር(ዓርኪ） ",
+    "nameM1": "ንፈረስ ዘፍቅር(ዓርኪ）",
     "name2": "",
     "nameE2": " ",
     "nameM2": "",
@@ -817,6 +817,48 @@
     "title": ["ኣማሓዳሪ ዞባ ገሊላ"],
     "adres": ["ገሊላ"],
     "info": ["ንዮሃንስ ዝኣሰሮ "],
+    "man": true
+  },
+  "philipHerod": {
+    "id": "philipHerod",
+    "name1": "ፊልጶስ",
+    "nameE1": "Philip",
+    "nameM1": "ንፈረስ ዘፍቅር(ዓርኪ）",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ኣማሓዳሪ  ኢጡርያን ጥራኮኒቲስን"],
+    "adres": [""],
+    "info": ["ሓዉ ሄሮዶስ"],
+    "man": true
+  },
+  "lysanias": {
+    "id": "lysanias",
+    "name1": "ሊሳንያስ",
+    "nameE1": " Lysanias",
+    "nameM1": "ነጻ ካብ ጭንቀት",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ኣማሓዳሪ ኣቢለኔ"],
+    "adres": [""],
+    "info": [""],
+    "man": true
+  },
+  "johnBaptist": {
+    "id": "johnBaptist",
+    "name1": "ዮሃንስ መጥምቕ",
+    "nameE1": "John",
+    "nameM1": "ኣምላኽ ጸጋዊ",
+    "name2": " ",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ነብይ"],
+    "adres": [""],
+    "info": [""],
     "man": true
   }
 }

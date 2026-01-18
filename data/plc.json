@@ -371,5 +371,41 @@
     "vers": [""],
     "gMap": "https://maps.app.goo.gl/gRbSWuXeSjaNAvvX7",
     "info": ["ናይ ሎሚ ቱርኪ ጥቓ ዶብ ምስ ሶርያ ትርከብ"]
+  },
+  "ituraea": {
+    "id": "ituraea",
+    "name1": "ኢጡርያ",
+    "nameE1": "Ituraea",
+    "nameM1": "ምሕጻር",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": ["ናይ ሎሚ ደቡብ ሶርያን ሊባኖስን", "ከረን ሄርሞን"]
+  },
+  "trachonitis": {
+    "id": "trachonitis",
+    "name1": "ጥራኮኒቲስ",
+    "nameE1": " Trachonitis",
+    "nameM1": "ሓርፋፍ መሬት",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": ["ናይ ሎሚ ደቡብ ሶርያን ምብራቕ ካብ ባሕሪ ገሊላ"]
+  },
+  "abilene": {
+    "id": "abilene",
+    "name1": "ኣቢለኔ ",
+    "nameE1": "Abilene",
+    "nameM1": "ቦታ ሳዕሪ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": ["ናይ ሎሚ ደቡባዊ ምዕራብ ሶርያን ደቡብ ሊባኖስን"]
   }
 }
