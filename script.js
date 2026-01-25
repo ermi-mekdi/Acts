@@ -72,7 +72,7 @@ function dP(p) {
           .map(
             (item) => `
             
-    <li>${item}</li>`
+    <li>${item}</li>`,
           )
           .join("")
       : "";
@@ -119,7 +119,7 @@ function displayPerson(m) {
     ? m.adres
         .map(
           (item) => `
-    <li>${item}</li>`
+    <li>${item}</li>`,
         )
         .join("")
     : "";
@@ -279,7 +279,7 @@ function vers(t) {
           (item) =>
             `<li ><h3>${item.n}</h3>
       <h4 class="vdetails">${item.d}</h4>
-     </li>`
+     </li>`,
         )
         .join("")
     : "";
@@ -298,5 +298,5 @@ function dayNight() {
   const body = document.body;
   body.classList.toggle("dark-mode");
   modebtn.innerHTML = mode;
-  console.log(mode);
+  //console.log(mode);
 }
