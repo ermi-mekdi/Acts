@@ -134,17 +134,19 @@ u {
 }
 .list {
   display: flex;
-  justify-content: space-around;
+
+  margin: 3%;
 }
 .ppl {
   width: 30%;
   border: none;
   border-radius: 8px;
   background-color: #b3a88a;
+  margin-right: 3%;
 }
 .js-pplList {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   height: auto;
   max-height: 85vh;

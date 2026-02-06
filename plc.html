@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="ti">
   <head>
-    <title>ሰባት ኣብ መጽሓፍ ቅዱስ</title>
+    <title>ቦታ ኣብ መጽሓፍ ቅዱስ</title>
     <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
     <link rel="icon" type="image/x-icon" href="./assets/faviacts.jpg" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="../data/ppls.js"></script>
-    <script src="../data/plc.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     
-    <script src="../data/ver.js"></script>
   </head>
   <body>
     <div class="bo">
       <div class="list">
         <div class="ppl">
-          <h2>ኣስማት ሰባት</h2>
+          <h2>ኣስማት ቦታ</h2>
           <div class="js-pplList">   </div>
         </div>
         <div class="detaile">
-          <h2>ሓበሬታ ሰባት</h2>
+          <h2>ሓበሬታ ቦታ</h2>
           <div class="js-pplDetail"></div>
 
         </div>
@@ -31,34 +28,27 @@
     <script>
       const pplListEl = document.querySelector('.js-pplList');
       const detailEl = document.querySelector('.js-pplDetail');
-      function disPp(p){
-        const adres = p
-          ? p.adres
-              .map(
-                (item) => `
-          <li>${item}</li>`
-              )
-              .join("")
-          : "";
+      function disPlc(p){
+        
         const title = p.title
           ? p.title.map((item) => `<li>${item}</li>`).join(""): "";
         const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
         const vers = p.ver ? p.ver.map((item) => `<li>${item}</li>`).join("") : "";
+        const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
         detailEl.innerHTML = `
-        <h4> ${p.name1} ${p.nameE1}</h4>
+        <h4> ${p.name1} (${p.nameE1})</h4>
         <h4> ${p.nameM1} </h4>
         <h4> ${p.name2} ${p.nameE2}</h4>
         <h4> ${p.nameM2} </h4>
         <h4> ID :  ${p.id} </h4>
-        <ul>${adres}</ul>
-        <ul>${title}</ul>
+        <h4>${gMap}</h4>         
         <ul>${vers}</ul>
         <ul>${info}</ul>
         `
       }
       
      
-      fetch('./data/ppls.json')
+      fetch('./data/plc.json')
         .then(r => r.json())// load json
         
         .then(data => {
@@ -79,8 +69,8 @@
             li.textContent = person.name1 || person.nameE1 || person.name || person.id || 'Unknown';
 
             li.addEventListener('click', () => {
-              if (typeof disPp === 'function') disPp(person);
-              else console.warn('display function disPp not found', person);
+              if (typeof disPlc === 'function') disPlc(person);
+              else console.warn('display function disPlc not found', person);
             });
 
             pplListEl.appendChild(li);

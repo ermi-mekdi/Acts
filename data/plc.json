@@ -1,5 +1,6 @@
 {
   "jerusalem": {
+    "id": "jerusalem",
     "name1": "የሩሳሌም",
     "nameE1": "Jerusalem",
     "nameM1": " የሩሳሌም",
@@ -407,5 +408,45 @@
     "vers": [""],
     "gMap": "",
     "info": ["ናይ ሎሚ ደቡባዊ ምዕራብ ሶርያን ደቡብ ሊባኖስን"]
+  },
+  "alexandria": {
+    "id": "alexandria",
+    "name1": "እስክንድርያ",
+    "nameE1": "Alexandria",
+    "nameM1": "ሓላዊ ወዲሰብ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": [
+      "ናይ ግብጺ ናብ ማእከላይ ባሕሪ ወገን ትርከብ ከተማ",
+      "ዓቢ ቤት ትምህርቲ ብስነመለኮት ዘለዋ",
+      "ኣጵሎስ እውን ኣብኣ እዩ ተማሂሩ"
+    ]
+  },
+  "cilicia": {
+    "id": "cilicia",
+    "name1": "ቂልቅያ",
+    "nameE1": "Cilicia",
+    "nameM1": "ምግምጣል፡ ተሪር ቦታ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": ["ኣብ ናይ ሎሚ ደቡብ ቱርኪ ትርከብ ዞባ", "ጳውሎስእውን ኣብዚ ዞባ ኣብ ከተማ ጠርሴስ እዩ ተወሊዱ"]
+  },
+  "asia": {
+    "id": "asia",
+    "name1": "እስያ",
+    "nameE1": "Asia",
+    "nameM1": "ምግምጣል፡ ተሪር ቦታ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "",
+    "info": ["ዝዓበየ ክፋል ናይ ሎሚ ቱርኪ "]
   }
 }
