@@ -130,7 +130,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/abrhamMesopotamiaKenan.jpg",
     "info": [
       "ናይ ሎሚ ዒራቕ ",
       "Mesopotamia is a historical region located in West Asia, nestled between the Tigris and Euphrates rivers. The name itself comes from Greek, meaning 'between rivers.'"
@@ -371,7 +371,7 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "https://maps.app.goo.gl/gRbSWuXeSjaNAvvX7",
+    "gMap": "../assets/abrhamMesopotamiaKenan.jpg",
     "info": ["ናይ ሎሚ ቱርኪ ጥቓ ዶብ ምስ ሶርያ ትርከብ"]
   },
   "ituraea": {
@@ -449,5 +449,30 @@
     "vers": [""],
     "gMap": "",
     "info": ["ዝዓበየ ክፋል ናይ ሎሚ ቱርኪ "]
+  },
+  "midian": {
+    "name1": "ሚድያን",
+    "nameE1": "Midian",
+    "nameM1": "ቃልሲ ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "../assets/acts1.jpg",
+    "info": [
+      "ናይ ሎሚ ሰሜናዊ ምዕራብ ሱዑዲ ዓረብን ገለ ክፋል ዮርዳኖስን ",
+      "1 ዜና 1 32 ደቂ ቄጡራ፡ ሰበይቲ ወሰን ኣብራሃም ድማ፡ ንሳ ንዚምራንን ንዮቅሻንን ንመዳንን ንሚድያንን ንዪሽባቅን ንሿን ወለደት። ደቂ ዮቅሻን ከኣ፡ ሼባን ዴዳንን። 33 ደቂ ምድያን ድማ፡ ዔፋን ዔፈርን ሓኖክን ኣቢዳዕን ኤልዳዓን። እዚኣቶም ኲሎም ደቂ ቄጡራ እዮም።"
+    ]
+  },
+  "mountSinai": {
+    "name1": "ደብረ ሲና",
+    "nameE1": "Mount Sinai",
+    "nameM1": "ቃልሲ ",
+    "name2": " ",
+    "nameE2": " ",
+    "nameM2": " ",
+    "vers": [""],
+    "gMap": "../assets/acts1.jpg",
+    "info": []
   }
 }
