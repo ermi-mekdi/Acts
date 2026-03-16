@@ -467,12 +467,12 @@
   "mountSinai": {
     "name1": "ደብረ ሲና",
     "nameE1": "Mount Sinai",
-    "nameM1": "ቃልሲ ",
-    "name2": " ",
-    "nameE2": " ",
-    "nameM2": " ",
+    "nameM1": "",
+    "name2": "ደብረ ሙሴ",
+    "nameE2": "Jabal Mūsā",
+    "nameM2": "ጎቦ፡ ታባ  ሙሴ",
     "vers": [""],
     "gMap": "../assets/acts1.jpg",
-    "info": []
+    "info": ["ሙሴ መጀመርያ ሓዊ ኣብኣሻኹ ቆጥቋጥ ዝረኣየሉ ቦታ", "ዓሰርተ ትእዛዛት ዝሓዘ ጽላት ዝተቐበለሉ ቦታ"]
   }
 }

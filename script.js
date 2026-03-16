@@ -166,7 +166,7 @@ function dPlc(c) {
   const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
   display.innerHTML = `
   <div onclick="de()" class="x">X</div> 
-  <h2> ${p.name1} (${p.nameE1})  ${p.name2}  ${p.nameE2} </h2>
+  <h2> ${p.name1} (${p.nameE1}) </h2>  
   <h4>${def1}</h4>
   <h3>${def2} </h3>
   <div class= "pdetails"> 
