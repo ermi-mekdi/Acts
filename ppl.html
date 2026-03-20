@@ -45,7 +45,7 @@
         const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
         const vers = p.ver ? p.ver.map((item) => `<li>${item}</li>`).join("") : "";
         detailEl.innerHTML = `
-        <h4> ${p.name1} ${p.nameE1}</h4>
+        <h4> ${p.name1} (${p.nameE1})</h4>
         <h4> ${p.nameM1} </h4>
         <h4> ${p.name2} ${p.nameE2}</h4>
         <h4> ${p.nameM2} </h4>
@@ -76,7 +76,7 @@
 
             const li = document.createElement('li');
             li.style.cursor = 'pointer';
-            li.textContent = person.name1 || person.nameE1 || person.name || person.id || 'Unknown';
+            li.textContent = person.name1 +' '+ person.name2+' '+ person.id || person.nameE1 || person.name || 'Unknown';
 
             li.addEventListener('click', () => {
               if (typeof disPp === 'function') disPp(person);
