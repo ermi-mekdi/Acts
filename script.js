@@ -66,16 +66,9 @@ function dP(p) {
       : "";
   const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
   const vers = m.ver ? m.ver.map((item) => `<li>${item}</li>`).join("") : "";
-  const adres =
-    m && m.adres && String(m.adres).trim() !== ""
-      ? m.adres
-          .map(
-            (item) => `
-            
-    <li>${item}</li>`,
-          )
-          .join("")
-      : "";
+  const adres = m.adres
+    ? m.adres.map((item) => `<li>${item}</li>`).join("")
+    : "";
   const title = m.title
     ? m.title.map((item) => `<li>${item}</li>`).join("")
     : "";
