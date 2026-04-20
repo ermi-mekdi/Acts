@@ -904,5 +904,19 @@
       ""
     ],
     "man": true
+  },
+  "simonSamaria": {
+    "id": "simonSamaria",
+    "name1": "ስምኦን",
+    "nameE1": "Simon",
+    "nameM1": "ንሱ ይሰምዕ እዩ",
+    "name2": "",
+    "nameE2": "",
+    "nameM2": "",
+    "ver": [""],
+    "title": ["ጠንቋሊ"],
+    "adres": ["ሰማርያ"],
+    "info": [],
+    "man": true
   }
 }
