@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ግብረ ሃዋርያት</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/faviacts.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Update your meta tag to include connect-src -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; connect-src 'self' http://localhost:3000; script-src 'self'; img-src 'self'; style-src 'self';"
+    />
+  </head>
+
+  <form id="dataForm">
+    <input type="text" id="id" placeholder="ID" required /><br />
+    <input type="text" id="name1" placeholder="First Name" /><br />
+    <input type="text" id="name2" placeholder="Last Name" /><br />
+
+    <input type="text" id="ver" placeholder="Versions (e.g. 1.0, 1.1)" /><br />
+    <input
+      type="text"
+      id="title"
+      placeholder="Titles (e.g. CEO, Founder)"
+    /><br />
+    <input type="text" id="address" placeholder="Addresses" /><br />
+
+    <textarea id="info" placeholder="Info"></textarea><br />
+
+    <button type="submit">Save to Server</button>
+  </form>
+
+  <script src="../script.js"></script>
+</html>
