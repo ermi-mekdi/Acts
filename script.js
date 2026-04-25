@@ -293,33 +293,3 @@ function dayNight() {
   modebtn.innerHTML = mode;
   //console.log(mode);
 }
-
-document.getElementById("dataForm").addEventListener("submit", async (e) => {
-  e.preventDefault();
-
-  // Helper to turn comma-separated string into an array
-  const toArray = (id) =>
-    document
-      .getElementById(id)
-      .value.split(",")
-      .map((item) => item.trim());
-
-  const formData = {
-    id: document.getElementById("id").value,
-    name1: document.getElementById("name1").value,
-    name2: document.getElementById("name2").value,
-    ver: toArray("ver"),
-    title: toArray("title"),
-    address: toArray("address"),
-    info: document.getElementById("info").value,
-  };
-
-  const response = await fetch("/save-data", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(formData),
-  });
-
-  const result = await response.json();
-  alert(result.message);
-});

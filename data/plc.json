@@ -19,7 +19,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "https://maps.app.goo.gl/RvFHnh1ZquQzfhoC8 ",
+    "gMap": "../assets/yerusalemJesus.jpg",
     "info": [""]
   },
   "juda": {
@@ -31,7 +31,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "https://media.freebibleimages.org/stories/FB_Maps_Israel_NT/source-jpeg/05_FB_Maps_Israel_NT_1024.jpg?1613568989",
+    "gMap": "../assets/actsIsrael.jpg",
     "info": [""]
   },
   "samaria": {
@@ -42,7 +42,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "https://media.freebibleimages.org/stories/FB_Maps_Israel_NT/source-jpeg/05_FB_Maps_Israel_NT_1024.jpg?1613568989",
+    "gMap": "../assets/actsIsrael.jpg",
     "info": [""]
   },
   "galilee": {
@@ -53,7 +53,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "https://media.freebibleimages.org/stories/FB_Maps_Israel_NT/source-jpeg/05_FB_Maps_Israel_NT_1024.jpg?1613568989",
+    "gMap": "../assets/actsIsrael.jpg",
     "info": [""]
   },
   "upRoom": {
@@ -499,5 +499,29 @@
       "ዳሕራይ ናይ ሳምራውያን ማእከል ኮይና",
       "ናይ ሕጂ ስማ Nablus"
     ]
+  },
+  "gaza": {
+    "id": "gaza",
+    "name1": "ጋዛ",
+    "nameE1": "Gaza",
+    "nameM1": "ብርታዐ፡ ተሪር ቦታ",
+    "name2": "",
+    "nameE2": "",
+    "nameM2": "",
+    "vers": [""],
+    "gMap": "../assets/actsIsrael.jpg",
+    "info": []
+  },
+  "candace": {
+    "id": "candace",
+    "name1": "ህንደኬ",
+    "nameE1": "Candace",
+    "nameM1": "",
+    "name2": "",
+    "nameE2": "",
+    "nameM2": "",
+    "vers": [""],
+    "gMap": "../assets/actsIsrael.jpg",
+    "info": []
   }
 }

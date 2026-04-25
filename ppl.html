@@ -66,19 +66,23 @@
         .then(r => r.json())// load json
         
         .then(data => {
-          //console.log(data);
-          // normalize top-level shape: object -> array, or already array
-          const pplArray = Array.isArray(data) ? data : Object.values(data);
+          // Data might be an array [{key: person}, ...] or a single object {key: person, ...}
+          let pplArray;
+          if (Array.isArray(data)) {
+            // Already an array - each item is { key: personObject }
+            pplArray = data.map(item => {
+              const key = Object.keys(item)[0];
+              return item[key];
+            });
+          } else {
+            // Single object with key-value pairs - get all values
+            pplArray = Object.values(data);
+          }
           let fullPplArray = [...pplArray]; // store full list for searching
 
           function renderList(filteredArray) {
             pplListEl.innerHTML = '';
-            filteredArray.forEach(item => {
-              // item might itself be an array [person, ...], or an object { person: {...} }, or the person directly
-              let person = Array.isArray(item) ? item[0] : item;
-              if (person && person.person) person = person.person;
-
-              if (!person) return; // skip bad entries
+            filteredArray.forEach(person => {
 
               const li = document.createElement('li');
               li.style.cursor = 'pointer';
@@ -104,9 +108,7 @@
             if (query === '') {
               renderList(fullPplArray);
             } else {
-              const filtered = fullPplArray.filter(item => {
-                let person = Array.isArray(item) ? item[0] : item;
-                if (person && person.person) person = person.person;
+              const filtered = fullPplArray.filter(person => {
                 if (!person) return false;
                 const name1 = (person.name1 || '').toLowerCase();
                 const name2 = (person.name2 || '').toLowerCase();
@@ -120,7 +122,7 @@
             detailEl.innerHTML = '';
           });
 
-          //console.log('rendered', pplListEl.children.length);
+          console.log('rendered', pplListEl.children.length);
         });
   
         
