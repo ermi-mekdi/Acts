@@ -1,4 +1,5 @@
 // Woman   &#128105; Man  &#128104; locatie 📍 book  &#128213;
+//  896 8361 7469     803837
 
 window.ppls = null;
 (async function load() {
@@ -61,7 +62,7 @@ function dP(p) {
   display.classList.add("person");
   display.id = "pdisplay";
   document.body.appendChild(display);
-  console.log(p);
+  //console.log(p);
   const sex = m.man === true ? "&#128104; " : "&#128105; ";
   const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
   const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
@@ -99,51 +100,7 @@ function dP(p) {
   // console.log(d);
   // console.log(d[p]);
 }
-function displayPerson(m) {
-  const display = document.createElement("div");
-  display.classList.add("person");
-  display.id = "pdisplay";
-  document.body.appendChild(display);
-  const sex = m.man === true ? "&#128104; " : "&#128105; ";
-  const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
-  const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
-  const naam2 =
-    m && m.name2 && String(m.name2).trim() !== ""
-      ? `ካልኣይ ስም  ${m.name2}  (${m.nameE2})`
-      : "";
-  const info = m.info ? m.info.map((item) => `<li>${item}</li>`).join("") : "";
-  const vers = m.ver ? m.ver.map((item) => `<li>${item}</li>`).join("") : "";
-  const adres = m
-    ? m.adres
-        .map(
-          (item) => `
-    <li>${item}</li>`,
-        )
-        .join("")
-    : "";
-  const title = m.title
-    ? m.title.map((item) => `<li>${item}</li>`).join("")
-    : "";
 
-  display.innerHTML = `
-  <div onclick="de()" class="x">X</div>
-  <h3>${sex}</h3>
-  <h2> ስም ${m.name1} (${m.nameE1}) </h2>
-  <h4>${def1}</h4>
-  <h3> ${naam2} </h3>  
-  <h4>${def2} </h4> 
-  <div class= "pdetails">  
-  <h4>ስራሕ</h4>
-  <ul>${title}</ul> 
-  <h4>አድራሻ</h4>
-  <ul>${adres}</ul>
-  <ul>${vers}</ul>
-  <h4>ሓበሬታ</h4>
-  <ul>${info}</ul>
-  </div>
-  <button class="xbtn" onclick="de()">Close</button>
-  `;
-}
 
 function dPlc(c) {
   const d = window.plc;
@@ -175,48 +132,11 @@ function dPlc(c) {
   <button class="xbtn" onclick="de()">Close</button>
   `;
 }
-function disPlc(p) {
-  const display = document.createElement("div");
-  display.classList.add("person");
-  display.id = "pdisplay";
-  document.body.appendChild(display);
 
-  const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
-  const def2 =
-    p && p.name2 && String(p.name2).trim() !== ""
-      ? `ካልኣይ ስም  ${p.name2}  (${p.nameE2})`
-      : "";
-  const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";
-  const info = p.info ? p.info.map((item) => `<li>${item}</li>`).join("") : "";
-  display.innerHTML = `
-  <div onclick="de()" class="x">X</div> 
-  <h2> ${p.name1} (${p.nameE1})  ${p.name2}  ${p.nameE2} </h2>
-  <h4>${def1}</h4>
-  <h3>${def2} </h3>
-  <div class= "pdetails">  
-  <h4>${gMap}</h4>
-  <ul>${info}</ul>
-  </div>
-  <button class="xbtn" onclick="de()">Close</button>
-  `;
-}
 function de() {
   const display = document.getElementById("pdisplay").remove();
 }
-function wordD(w, event) {
-  const display = document.createElement("div");
-  display.classList.add("word");
-  display.id = "pdisplay";
-  document.body.appendChild(display);
-  display.innerHTML = `  
-    <h2>${w.d}</h2>    
-  `;
-  // Position at click
-  display.style.position = "absolute";
-  display.style.left = event.clientX + window.scrollX + "px";
-  display.style.top = Math.max(event.clientY + window.scrollY, 10) + "px";
-  setTimeout(de, 2000);
-}
+
 function dW(w, event) {
   const q = window.word;
   const m = q[w];

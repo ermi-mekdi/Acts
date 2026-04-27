@@ -505,6 +505,12 @@
       }
     },
     "act": {
+      "c1":{
+        "v8":{
+          "n":"ግብሪ ሃዋርያት 1፡ 8",
+          "d":"<b>መንፈስ ቅዱስ</b> ናባኻትኩም ምስ ዚወርድ ግና፡ <b>ሓይሊ ኽትቅበሉ</b>፡ ኣብ <strong onclick='dPlc(`jerusalem`)'>የሩሳሌምን📍</strong> ኣብ ኲላ <strong onclick='dPlc(`juda`)'>ይሁዳን📍 </strong> ኣብ <strong onclick='dPlc(`samaria`)'>ሰማርያን📍</strong> ክሳዕ <b>ወሰን ምድሪ</b> <b>ምስክር</b> ክትኰኑኒ ኢኹም፡ በሎም፡"
+        }
+      },
       "c2": {
         "v2": {
           "n": "ግብረ ሃዋርያት 2፡2",
