@@ -1,3 +1,7 @@
 # Local-only files (not pushed to GitHub)
 ppl.html
 plc.html
+plcinput.html
+input.html
+input.js
+style.css

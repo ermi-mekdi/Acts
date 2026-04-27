@@ -52,11 +52,16 @@ window.word = null;
 function dP(p) {
   const d = window.ppls;
   const m = d[p];
-
+  // Add this check to prevent the error if the person 'p' isn't found
+  if (!m) {
+    console.error(`Person with key "${p}" not found in window.ppls`);
+    return;
+  }
   const display = document.createElement("div");
   display.classList.add("person");
   display.id = "pdisplay";
   document.body.appendChild(display);
+  console.log(p);
   const sex = m.man === true ? "&#128104; " : "&#128105; ";
   const def1 = m.nameM1 ? m.name1 + " ማለት " + m.nameM1 : "";
   const def2 = m.nameM2 ? m.name2 + " ማለት " + m.nameM2 : "";
