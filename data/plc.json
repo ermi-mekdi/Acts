@@ -512,16 +512,20 @@
     "gMap": "../assets/actsIsrael.jpg",
     "info": []
   },
-  "candace": {
-    "id": "candace",
-    "name1": "ህንደኬ",
-    "nameE1": "Candace",
-    "nameM1": "",
+  "ethiopia": {
+    "id": "ethiopia",
+    "name1": "ኢትዮጵያ",
+    "nameE1": "Ethiopia",
+    "nameM1": "ዝሓረረ ገጽ ወይ ቆርበት",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
     "gMap": "../assets/actsIsrael.jpg",
-    "info": []
+    "info": ["ናይ ሽዕኡ ኢትዮጵያ ማለት ካብ ግብጺ ንደቡብ ዘሎ እዩ።",
+      "ንግስነት ኢዮትጵያ ተባሂሉ ዘሎ ንንግስነት ኩሽ የመልክት።",
+      "ዋና ከተማ ድማ ሜሩ(Meroe) ትበሃል ኣብ ናይ ሕጂ ሱዳን ትርከብ።",
+      "እታ ከተማ ካብ ኣስታት 800 ዓዓ ክሳብ 350ዓም ሰባት ይነብሩላ ነይሮም።",
+      "ድሕሪ እዚ ምናልባት ኣብ ትሕቲ ንግስነት ኣክሱም ኣትያ ትኸውን ፡ "]
   }
 }

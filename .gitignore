@@ -4,4 +4,6 @@ plc.html
 plcinput.html
 input.html
 input.js
+plc.js
 style.css
+.gitignore
