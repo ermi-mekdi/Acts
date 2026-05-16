@@ -218,3 +218,17 @@ function dayNight() {
   modebtn.innerHTML = mode;
   //console.log(mode);
 }
+
+// Chapter menu toggle
+ function toggleChapterMenu() {
+        const menu = document.getElementById('chapterMenu');
+        menu.classList.toggle('show');
+      }
+      document.addEventListener('click', function(event) {
+  const wrapper = document.querySelector('.selectChapter-wrapper');
+  // Check if wrapper exists before calling .contains()
+  if (wrapper && !wrapper.contains(event.target)) {
+    const menu = document.getElementById('chapterMenu');
+    if (menu) menu.classList.remove('show');
+  }
+});
