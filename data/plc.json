@@ -75,7 +75,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "https://maps.app.goo.gl/sCqAFF811KpofGyR6",
+    "gMap": "",
     "info": [
       "ማቴዎስ 27",
       "6: ሊቃውንቲ ኻህናት ነቲ ኣቕራሽ ወሲዶም፡ ዋጋ ደም እዩ እሞ ናብ ሳጹን ምጽዋት ከነእትዎ ኣይግባእን፡ በሉ።",
@@ -92,9 +92,9 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/iran.jpg",
     "info": [
-      "The empire was a major ancient Iranian power, and its location spanned a vast region of the Middle East and Central Asia."
+      "ሰፊሕ ሰሜናዊ ክፋል ናይ ሎሚ ኢራን፡ ቱርክመኒስታን፡ ገለ ክፋል ናይ ሎሚ ኣፍጋኒስታን፡ ገለ ክፋል ናይ ሎሚ ኣርመንያ"
     ]
   },
   "mede": {
@@ -105,9 +105,12 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/iran.jpg",
     "info": [
-      "This ancient kingdom was located in the Near East, primarily corresponding to the northwestern part of modern-day Iran."
+      " ኣብ ከባቢ ኣኽራናት ዛግሮስ",
+      "ሰፊሕ ሰሜናዊ ምዕራብ ናይ ሎሚ ኢራን፡",
+      "ቅድሚ ጰርቴን ንግስነት ነይርዎም",
+      "ዳሕራይ ግን ሜዶንን ፋርስን ዓቢ ግዝኣ ገይሮ ኣብ ግዜ ዳንኤል ከም ዝነበረ"
     ]
   },
   "elamite": {
@@ -118,7 +121,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/iran.jpg",
     "info": [
       "The name Elamite refers to the people of the ancient civilization of Elam, which was located in the southwest of modern-day Iran."
     ]
@@ -145,7 +148,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/actsTurk.jpg",
     "info": [
       "Cappadocia is a stunning historical region located in central Turkey, primarily within the provinces of Nevşehir, Kayseri, Aksaray, Niğde, and Kırşehir"
     ]
@@ -158,7 +161,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/actsTurk.jpg",
     "info": [
       "Pontus was an ancient region located along the southern coast of the Black Sea, in what is now northeastern Turkey"
     ]
@@ -171,7 +174,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/actsTurk.jpg",
     "info": [
       "Phrygia was an ancient kingdom located in west-central Anatolia, which is part of modern-day Turkey. It stretched across the Anatolian plateau, with its heartland centered around the Sangarios (Sakarya) River."
     ]
@@ -184,7 +187,7 @@
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/actsTurk.jpg",
     "info": [
       "Pamphylia was an ancient region located along the southern coast of Asia Minor, which corresponds to modern-day southern Turkey, specifically within the Antalya Province"
     ]
@@ -197,7 +200,7 @@
     "nameE2": "",
     "nameM2": "ሃገር፡ መንግስቲ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/kushLibyaIran.jpg",
     "info": [
       "Egypt is a country in North Africa, known for its ancient civilization and some of the world's most famous monuments, including the Great Pyramids of Giza and the Sphinx."
     ]
@@ -210,7 +213,7 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/kushLibyaIran.jpg",
     "info": [""]
   },
   "cyrene": {
@@ -235,7 +238,7 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/actsitagrkturk.jpg",
     "info": [""]
   },
   "cretans": {
