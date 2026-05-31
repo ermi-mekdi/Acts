@@ -114,7 +114,8 @@ function dPlc(c) {
   const def1 = p.nameM1 ? p.name1 + " ማለት " + p.nameM1 : "";
   const def2 =
     p && p.name2 && String(p.name2).trim() !== ""
-      ? `ካልኣይ ስም  ${p.name2}  (${p.nameE2})`
+      ? `ካልኣይ ስም  ${p.name2}  (${p.nameE2})<br>
+      <h4>${p.name2 ? " ማለት " + p.nameM2 : ""}</h4>`
       : "";
   const vers = p.vers ? p.vers.map((item) => `<li>${item}</li>`).join("") : "";
   const gMap = p.gMap ? `<a href="${p.gMap}" target="_blank">Map</a>` : "";

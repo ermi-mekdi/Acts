@@ -87,7 +87,7 @@
   "parthians": {
     "name1": "ጰርቴን",
     "nameE1": "Parthians",
-    "nameM1": " ",
+    "nameM1": "",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
@@ -100,7 +100,7 @@
   "mede": {
     "name1": " ሜዶን",
     "nameE1": "Mede",
-    "nameM1": " ",
+    "nameM1": "ማእከል",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
@@ -116,7 +116,7 @@
   "elamite": {
     "name1": "ኤላም ",
     "nameE1": "Elamite",
-    "nameM1": " ",
+    "nameM1": "ላዕሊ ወይ ዝበረኸ መሬት",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
@@ -143,12 +143,12 @@
   "cappadocia": {
     "name1": " ቀጶዶቅያ",
     "nameE1": "Cappadocia",
-    "nameM1": " ",
+    "nameM1": "ታሕታይ ቦታ ወይ ሃገር",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "../assets/actsTurk.jpg",
+    "gMap": "../assets/paul3.jpg",
     "info": [
       "Cappadocia is a stunning historical region located in central Turkey, primarily within the provinces of Nevşehir, Kayseri, Aksaray, Niğde, and Kırşehir"
     ]
@@ -156,12 +156,12 @@
   "pontus": {
     "name1": " ጶንጦስ",
     "nameE1": "Pontus",
-    "nameM1": " ",
+    "nameM1": "ባሕሪ ወይ እቲ ዓሚቕ",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "../assets/actsTurk.jpg",
+    "gMap": "../assets/paul3.jpg",
     "info": [
       "Pontus was an ancient region located along the southern coast of the Black Sea, in what is now northeastern Turkey"
     ]
@@ -169,12 +169,12 @@
   "phrygia": {
     "name1": "ፍርግያ ",
     "nameE1": "Phrygia",
-    "nameM1": " ",
+    "nameM1": "ከበሳ ወይ ኣኽራናት",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "../assets/actsTurk.jpg",
+    "gMap": "../assets/paul3.jpg",
     "info": [
       "Phrygia was an ancient kingdom located in west-central Anatolia, which is part of modern-day Turkey. It stretched across the Anatolian plateau, with its heartland centered around the Sangarios (Sakarya) River."
     ]
@@ -182,12 +182,12 @@
   "pamphylia": {
     "name1": " ጰምፊልያ",
     "nameE1": "Pamphylia",
-    "nameM1": " ",
+    "nameM1": "ናይ ኩሎም ዓሌታት ሃገር",
     "name2": "",
     "nameE2": "",
     "nameM2": "",
     "vers": [""],
-    "gMap": "../assets/actsTurk.jpg",
+    "gMap": "../assets/paul3.jpg",
     "info": [
       "Pamphylia was an ancient region located along the southern coast of Asia Minor, which corresponds to modern-day southern Turkey, specifically within the Antalya Province"
     ]
@@ -195,10 +195,10 @@
   "egypt": {
     "name1": " ግብጺ",
     "nameE1": "Egypt",
-    "nameM1": " ",
+    "nameM1": "ቤት ናይ መንፈስ ፓታህ(ስም መቕደስ መምፊስ)",
     "name2": "ምስሪ",
-    "nameE2": "",
-    "nameM2": "ሃገር፡ መንግስቲ",
+    "nameE2": "Misr",
+    "nameM2": "ዝተሓጽረት ሃገር፡ መንግስቲ",
     "vers": [""],
     "gMap": "../assets/kushLibyaIran.jpg",
     "info": [
@@ -224,32 +224,32 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/kushLibyaIran.jpg",
     "info": [
       "Cyrene was an ancient Greek colony located in northeastern Libya, in North Africa. Today, its ruins lie near the modern town of Shahhat, in the Jebel Akhdar (Green Mountain) region of Cyrenaica",
       "home to a large and influential Jewish community"
     ]
   },
   "rome": {
-    "name1": " ",
+    "name1": "ሮሜ",
     "nameE1": "Rome ",
-    "nameM1": " ",
+    "nameM1": "ብርታዐ ወይ ጉልበት",
     "name2": " ",
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "../assets/actsitagrkturk.jpg",
+    "gMap": "../assets/romanEmpire.jpg",
     "info": [""]
   },
   "cretans": {
     "name1": "ቅሬጥስ ",
-    "nameE1": "Cretans ",
-    "nameM1": " ",
+    "nameE1": "Creta",
+    "nameM1": "ደሴት ወይ ዝተቆርጸ መሬት",
     "name2": " ",
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/paul3.jpg",
     "info": [
       "The Cretans are people from Crete, the largest island in Greece, located in the eastern Mediterranean Sea."
     ]
@@ -423,7 +423,7 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/kushLibyaIran.jpg",
     "info": [
       "ናይ ግብጺ ናብ ማእከላይ ባሕሪ ወገን ትርከብ ከተማ",
       "ዓቢ ቤት ትምህርቲ ብስነመለኮት ዘለዋ",
@@ -439,7 +439,7 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
+    "gMap": "../assets/paul3.jpg",
     "info": ["ኣብ ናይ ሎሚ ደቡብ ቱርኪ ትርከብ ዞባ", "ጳውሎስ ኣብዚ ዞባ ኣብ ከተማ ጠርሴስ እዩ ተወሊዱ"]
   },
   "asia": {
@@ -451,8 +451,8 @@
     "nameE2": " ",
     "nameM2": " ",
     "vers": [""],
-    "gMap": "",
-    "info": ["ዝዓበየ ክፋል ናይ ሎሚ ቱርኪ "]
+    "gMap": "../assets/paul3.jpg",
+    "info": ["ዝዓበየ ክፋል ናይ ሎሚ ምዕራብ ቱርኪ "]
   },
   "midian": {
     "name1": "ሚድያን",
@@ -531,5 +531,22 @@
       "እታ ከተማ ካብ ኣስታት 800 ዓዓ ክሳብ 350ዓም ሰባት ይነብሩላ ነይሮም።",
       "ድሕሪ እዚ ምናልባት ኣብ ትሕቲ ንግስነት ኣክሱም ኣትያ ትኸውን ፡ ",
     "ነዝያዳ ሓበሬታ<a href='https://en-wikipedia-org.translate.goog/wiki/Mero%C3%AB?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=sge`  target=`_blank'>ኣብዚ ጠውቑ</a>"]
+  },
+  "azotus": {
+  "id": "azotus",
+  "name1": "ኣዛጦን(ብግሪኽ)",
+  "nameE1": "Azotus",
+  "nameM1": "ዝተዓርደ፡ ጽኑዕ ቦታ",
+  "name2": "ኣሽዶድ (ብእብራይስጥ)",
+  "nameE2": "Ashdod",
+  "nameM2": "ዝተዓርደ፡ ጽኑዕ ቦታ",
+  "ver": [
+    ""
+  ],
+  "gMap": "../assets/actsIsrael.jpg",
+  "info": [
+    "ኣሽዶድ ብእብራይስጥ",
+    "ኣዛጦን (ብግሪኽ)"
+  ]
   }
 }
